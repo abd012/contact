@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://abd012.github.com/contact",
   "name": "vite-project",
   
   "private": true,
@@ -12,8 +12,8 @@
   
     
   "dev": "vite",
-  
-    
+  "predeploy":"npm run build",
+  "deploy" :"gh-pages -d dist",
   "build": "vite build",
   
     
